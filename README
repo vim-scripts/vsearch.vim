@@ -1,0 +1,12 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1277
+
+This script enables the command ":VS" which allows you to search for patterns vertically (column-wise)
+
+" Usage:
+"  1) .,$VS <pattern> [Preferred approach, shows multiple occurence in a line]
+"      [ Use @: to search for further hits]
+"  2)  [range]VS <pattern> [Only first occurence in a line shown]
+"
+" Pre-requisites:
+"   :set nocp cpo+=<
+
